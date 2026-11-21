@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.0] — 2026-11-22
+
+- Use `feedback_intelligence` as the canonical Python package while preserving
+  `src` import compatibility during migration.
+- Add repeatable SQLite schema migrations and legacy data compatibility checks.
+- Add a dependency-light FlowFoundry application adapter.
+- Add focused migration and database tests.
+- Publish the source under MIT after rights review.
+
 ## [0.1.0] — 2026-07-13
 
 ### Added (初版 MVP)
